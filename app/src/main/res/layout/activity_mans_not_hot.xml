@@ -24,7 +24,7 @@
             android:layout_height="200dp"
             android:scaleType="fitCenter"
             android:adjustViewBounds="true"
-            android:src="@drawable/roadman"
+            android:src="@drawable/thuglife"
             android:layout_marginBottom="10dp"/>
         <ImageView
             android:id="@+id/playButtonImageView"
