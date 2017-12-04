@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="icon">
+        <provider android:name="com.likesdogscam.cam.soundboardbase.providers.AssetContentProvider"
+                  android:grantUriPermissions="true"
+                  android:authorities="com.likesdogscam.cam.soundboardbase"/>
         <activity android:name=".MansNotHotActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

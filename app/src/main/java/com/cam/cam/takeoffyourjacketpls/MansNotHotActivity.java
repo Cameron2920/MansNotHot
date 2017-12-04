@@ -11,7 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.likesdogscam.ericmonkman.ericmonkmansoundboard.activities.SoundboardActivity;
+import com.likesdogscam.cam.soundboardbase.activities.SoundboardActivity;
+
 
 public class MansNotHotActivity extends SoundboardActivity {
   private static String SOUND_CLIP_DESCRIPTION_PATH = "mans_not_hot.csv";
